@@ -23,10 +23,12 @@ export default function AddButton({ onAdd }:AddButtonReturn) {
         <button
           onClick={openInput}
           className="
-            text-4xl font-light
+            text-6xl font-light
             text-indigo-500
             hover:scale-110
             transition
+            bg-zinc-800
+            rounded-full w-18 h-18
           "
         >
           ＋
